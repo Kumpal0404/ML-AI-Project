@@ -40,10 +40,17 @@ Observation: The neural network underperformed compared to the decision tree, sh
 - torch
 - streamlit
 - jupyter Notebook
+
+## Future Work
+- Further optimization of neural network architectures.
+- Exploration of advanced feature selection methods.
+- Experimentation with alternative ML/DL models and hyperparameter search strategies.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
   
-## 📂 Contents
+## Folder Contents
 - `ProjectWork-Kumpal_khokhariya.ipynb` → Main notebook
 - `ProjectWork-Kumpal_khokhariya.pdf` → PDF export of the notebook
-- `requirements.txt` → Python dependencies
 
 
