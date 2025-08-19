@@ -14,12 +14,9 @@ This project investigates optimal hyperparameter selection and feature selection
 Observation: Achieved excellent predictive accuracy, with strong generalization and minimal variance between training and testing results.
 
 ## Neural Network
-
-Best Hyperparameters: hidden1_size=32, hidden2_size=64, learning_rate=0.001, num_epochs=100, batch_size=32, dropout_rate=0.2
-
-Training Performance: MSE = 34.352, MAE = 3.902, R² = 0.229
-
-Testing Performance: MSE = 32.633, MAE = 3.921, R² = 0.214
+- Best Hyperparameters: hidden1_size=32, hidden2_size=64, learning_rate=0.001, num_epochs=100, batch_size=32, dropout_rate=0.2
+- Training Performance: MSE = 34.352, MAE = 3.902, R² = 0.229
+- Testing Performance: MSE = 32.633, MAE = 3.921, R² = 0.214
 
 Observation: The neural network underperformed compared to the decision tree, showing high bias and limited predictive power despite hyperparameter tuning.
 
@@ -31,10 +28,9 @@ Observation: The neural network underperformed compared to the decision tree, sh
 | Recursive Feature Elimination (RFE) | 50–17    | –             | **2.853** | **1.075** | **0.931** |
 
 ## Final Results
-
-Best Model: Decision Tree Regressor (R² = 0.931 on test data).
-
-Feature Selection: Recursive Feature Elimination (RFE) with 17 features is most effective.
+- Best Model: Decision Tree Regressor (R² = 0.931 on test data).
+- Feature Selection: Recursive Feature Elimination (RFE) with 17 features is most effective.
+- 
 ## 📂 Contents
 - `ProjectWork-Kumpal_khokhariya.ipynb` → Main notebook
 - `ProjectWork-Kumpal_khokhariya.pdf` → PDF export of the notebook
