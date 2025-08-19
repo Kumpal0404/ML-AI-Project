@@ -30,7 +30,17 @@ Observation: The neural network underperformed compared to the decision tree, sh
 ## Final Results
 - Best Model: Decision Tree Regressor (R² = 0.931 on test data).
 - Feature Selection: Recursive Feature Elimination (RFE) with 17 features is most effective.
-- 
+
+## Software and Dependencies
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+- tensorflow
+- torch
+- streamlit
+- jupyter Notebook
+  
 ## 📂 Contents
 - `ProjectWork-Kumpal_khokhariya.ipynb` → Main notebook
 - `ProjectWork-Kumpal_khokhariya.pdf` → PDF export of the notebook
