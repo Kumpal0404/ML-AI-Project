@@ -7,11 +7,9 @@ This project investigates optimal hyperparameter selection and feature selection
 
   
 ## Decision Tree Regressor
-Best Hyperparameters: max_depth=21, min_samples_split=2, min_samples_leaf=1
-
-Training Performance: MSE = 0.036, MAE = 0.050, R² = 0.999
-
-Testing Performance: MSE = 2.853, MAE = 1.075, R² = 0.931
+- Best Hyperparameters: max_depth=21, min_samples_split=2, min_samples_leaf=1
+- Training Performance: MSE = 0.036, MAE = 0.050, R² = 0.999
+- Testing Performance: MSE = 2.853, MAE = 1.075, R² = 0.931
 
 Observation: Achieved excellent predictive accuracy, with strong generalization and minimal variance between training and testing results.
 
@@ -32,6 +30,11 @@ Observation: The neural network underperformed compared to the decision tree, sh
 | Lasso                               | –        | 0.001–0.01    | 3.07–4.63 | 1.16–1.43 | 0.89–0.93 |
 | Recursive Feature Elimination (RFE) | 50–17    | –             | **2.853** | **1.075** | **0.931** |
 
+## Final Results
+
+Best Model: Decision Tree Regressor (R² = 0.931 on test data).
+
+Feature Selection: Recursive Feature Elimination (RFE) with 17 features is most effective.
 ## 📂 Contents
 - `ProjectWork-Kumpal_khokhariya.ipynb` → Main notebook
 - `ProjectWork-Kumpal_khokhariya.pdf` → PDF export of the notebook
