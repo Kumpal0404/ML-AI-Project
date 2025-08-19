@@ -1,4 +1,4 @@
-# Prediction of Compressor Amplitute
+# Prediction of the target column "N AufgewAmplitudeNom [MPa]"
 
 This project investigates optimal hyperparameter selection and feature selection techniques to improve model performance for a regression-based and AI-based predections problem. Two models were evaluated: a Decision Tree Regressor and a Neural Network, with detailed comparisons of their performance under different tuning strategies.
 
